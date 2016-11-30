@@ -1,6 +1,6 @@
 NAME=test
 CFLAGS=-g -Wall -o $(NAME)
-GTKFLAGS=-export-dynamic `pkg-config --cflags --libs gtk+-2.0`
+GTKFLAGS=-export-dynamic `pkg-config --cflags --libs gtk+-3.0`
 SRCS=test.c
 CC=gcc
  
